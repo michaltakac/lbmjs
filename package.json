@@ -5,10 +5,15 @@
   "description": "Learning about Lattice-Boltzmann method.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Michal Takac <hello@michaltakac.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "babelify": "^10.0.0",
+    "budo": "^11.6.4"
+  }
 }

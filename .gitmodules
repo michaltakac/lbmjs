@@ -1,0 +1,3 @@
+[submodule "fieldplay"]
+	path = fieldplay
+	url = git@github.com:anvaka/fieldplay.git
